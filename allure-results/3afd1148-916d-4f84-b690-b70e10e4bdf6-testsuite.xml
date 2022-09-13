@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663002172903' stop='1663002196465'>
+    <name>Verify Account/Account Information</name>
+    <title>Verify Account/Account Information</title>
+    <test-cases>
+        <test-case start='1663002172904' status='passed' stop='1663002179599'>
+            <name>TC _004: Verify user will not Register to the application using empty input</name>
+            <title>TC _004: Verify user will not Register to the application using empty input</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s9 8.0-8.0.0'/>
+                <parameter kind='argument' name='device' value='samsung galaxy s9 8.0-8.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663002179600' status='passed' stop='1663002196464'>
+            <name>TC _005: Verify user will be Register to the application using valid information</name>
+            <title>TC _005: Verify user will be Register to the application using valid information</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s9 8.0-8.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

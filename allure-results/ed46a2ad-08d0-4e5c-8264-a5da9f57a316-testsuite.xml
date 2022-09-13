@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663002241245' stop='1663002923158'>
+    <name>Verify Home Screen</name>
+    <title>Verify Home Screen</title>
+    <test-cases>
+        <test-case start='1663002241246' status='broken' stop='1663002923155'>
+            <name>"before all" hook for Verify Home Screen</name>
+            <title>"before all" hook for Verify Home Screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='samsung galaxy s9 8.0-8.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Verify Home Screen "before all" hook for "TC _007: Verify User can Skip Registration to the application"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/auntoracharja/Work/SQA/Manual+Automation/Amader-Rail-Android/Amader_Rail_Automation_Script/test/specs/home/home.spec.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Verify Home Screen "before all" hook for "TC _007: Verify User can Skip Registration to the application"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/auntoracharja/Work/SQA/Manual+Automation/Amader-Rail-Android/Amader_Rail_Automation_Script/test/specs/home/home.spec.js)
+                    at createTimeoutError (/Users/auntoracharja/Work/SQA/Manual+Automation/Amader-Rail-Android/Amader_Rail_Automation_Script/node_modules/mocha/lib/errors.js:498:15)
+                    at Hook.Runnable._timeoutError (/Users/auntoracharja/Work/SQA/Manual+Automation/Amader-Rail-Android/Amader_Rail_Automation_Script/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/auntoracharja/Work/SQA/Manual+Automation/Amader-Rail-Android/Amader_Rail_Automation_Script/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,24 @@
+name: Amader-Rail Android App Automation Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        - uses: actions/setup-node@v1
+          with:
+            node-version: 16.16.0
+        - name: Install Dependencies
+          run: npm install
+        - name: Automation Test execute on BrowserStack
+          env:
+            BROWSERSTACK_USER: ${{ secrets.BS_USER }}
+            BROWSERSTACK_KEY: ${{ secrets.BS_KEY }}
+          run: npm run bsTest
+        - uses: actions/upload-artifact@v1
+          if: always()
+          with:
+            name: Test Report
+            path: allure-report
+            

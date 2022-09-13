@@ -1,0 +1,34 @@
+{
+  "name": "amader_rail_automation_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clearAllure": "if [ -d allure-results ]; then rm -Rf allure-results; fi && if [ -d allure-report ]; then rm -Rf allure-report; fi",
+    "test": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js",
+    "accountTest": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js --suite account",
+    "otherFeaturesTest": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js --suite othersFeatures",
+    "bsTest": "npm run clearAllure && npx wdio config/wdio.bs.conf.js --suite landing",
+    "allureReport": "allure serve"
+  },
+  "author": "Auntor Acharja",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.20.9",
+    "allure-commandline": "^2.18.1",
+    "appium": "^2.0.0-beta.42"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/register": "^7.18.9",
+    "@wdio/allure-reporter": "^7.20.3",
+    "@wdio/appium-service": "^7.20.8",
+    "@wdio/browserstack-service": "^7.24.0",
+    "@wdio/local-runner": "^7.20.9",
+    "@wdio/mocha-framework": "^7.20.7",
+    "@wdio/spec-reporter": "^7.20.8",
+    "appium-uiautomator2-driver": "^2.4.6",
+    "wdio-wait-for": "^2.2.6"
+  }
+}

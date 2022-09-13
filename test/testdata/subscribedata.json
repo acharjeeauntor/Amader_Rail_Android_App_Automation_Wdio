@@ -1,0 +1,11 @@
+{
+    "name": "Auntor",
+    "address": "dhaka",
+    "subscribeDuration": "1 Year",
+    "bKashAmount": "100",
+    "lastFourDigitbKashNumber": "7543",
+    "bKashTransactionID": "434567",
+    "contactNumber": "017895467543",
+    "errorMsg":"Please select subscribe duration",
+    "successMsg":"Successfully Subscribtion Done"
+}

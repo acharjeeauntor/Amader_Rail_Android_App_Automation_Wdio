@@ -1,0 +1,14 @@
+{
+    "easternRegion": {
+        "fromStationName": "কিশোরগঞ্জ",
+        "ToStationName": "ঢাকা",
+        "distance": "১৩৫",
+        "shovonChairPrice": "১৫০"
+    },
+    "weasternRegion": {
+        "fromStationName": "টাঙ্গাইল",
+        "ToStationName": "ঢাকা",
+        "distance": "৯৭ কিঃ মিঃ",
+        "shovonChairPrice":"১১৫ টাকা"
+    }
+}

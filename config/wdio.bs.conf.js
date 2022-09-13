@@ -33,7 +33,6 @@ othersFeatures:[
     './test/specs/traintracking/*.spec.js',
     './test/specs/mobileticket/mobileticket.spec.js',
     './test/specs/subscribe/subscribe.spec.js'
-    
 ]
 },
   

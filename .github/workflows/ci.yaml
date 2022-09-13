@@ -9,7 +9,7 @@ jobs:
         - uses: actions/setup-node@v1
           with:
             node-version: 16.16.0
-        - name: Install Dependencies
+        - name: Install npm Dependencies
           run: npm install
         - name: Automation Test execute on BrowserStack
           env:

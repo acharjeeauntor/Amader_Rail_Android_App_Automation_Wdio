@@ -1,18 +1,18 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663076165066' stop='1663076190925'>
-    <name>Verify Train Tracking Feature</name>
-    <title>Verify Train Tracking Feature</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663077581589' stop='1663077606480'>
+    <name>Verify Train Ticket Price Feature</name>
+    <title>Verify Train Ticket Price Feature</title>
     <test-cases>
-        <test-case start='1663076165066' status='passed' stop='1663076171438'>
-            <name>TC _023: Verify user can view train tracking information</name>
-            <title>TC _023: Verify user can view train tracking information</title>
+        <test-case start='1663077581589' status='passed' stop='1663077595403'>
+            <name>TC _021: Verify user can view Eastern Region train ticket price</name>
+            <title>TC _021: Verify user can view Eastern Region train ticket price</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-3'/>
+                <label name='thread' value='0-5'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-3'/>
+                <label name='thread' value='0-5'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
@@ -21,13 +21,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1663076171439' status='passed' stop='1663076190925'>
-            <name>TC _024: Verify user can get train tracking information by searching train by start and stop station name</name>
-            <title>TC _024: Verify user can get train tracking information by searching train by start and stop station name</title>
+        <test-case start='1663077595403' status='passed' stop='1663077606479'>
+            <name>TC _022: Verify user can view Western Region train ticket price</name>
+            <title>TC _022: Verify user can view Western Region train ticket price</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-3'/>
+                <label name='thread' value='0-5'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>

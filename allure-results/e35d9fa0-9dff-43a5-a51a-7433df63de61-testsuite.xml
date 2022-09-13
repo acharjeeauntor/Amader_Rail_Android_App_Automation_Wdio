@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663077517257' stop='1663077522873'>
+    <name>Verify Home Screen</name>
+    <title>Verify Home Screen</title>
+    <test-cases>
+        <test-case start='1663077517257' status='passed' stop='1663077521608'>
+            <name>TC _007: Verify User can Skip Registration to the application</name>
+            <title>TC _007: Verify User can Skip Registration to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663077521608' status='passed' stop='1663077521711'>
+            <name>TC _008: Verify user can view the App Name and Drawer icon in the top left corner</name>
+            <title>TC _008: Verify user can view the App Name and Drawer icon in the top left corner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663077521711' status='passed' stop='1663077522015'>
+            <name>TC _009: Verify Nine Box Options are showing and clickable</name>
+            <title>TC _009: Verify Nine Box Options are showing and clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663077522015' status='passed' stop='1663077522872'>
+            <name>TC _010: Verify user can re-sync the train information</name>
+            <title>TC _010: Verify user can re-sync the train information</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

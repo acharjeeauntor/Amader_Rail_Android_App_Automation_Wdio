@@ -8,7 +8,7 @@
     "test": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js",
     "accountTest": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js --suite account",
     "otherFeaturesTest": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js --suite othersFeatures",
-    "bsTest": "npm run clearAllure && npx wdio config/wdio.bs.conf.js --suite othersFeatures",
+    "bsTest": "npm run clearAllure && npx wdio config/wdio.bs.conf.js --suite basicTest",
     "allureReport": "allure serve"
   },
   "author": "Auntor Acharja",

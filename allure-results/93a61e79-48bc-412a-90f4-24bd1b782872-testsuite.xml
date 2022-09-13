@@ -1,18 +1,18 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663076083811' stop='1663076100222'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663077529377' stop='1663077544867'>
     <name>Verify Search Station/Train Feature</name>
     <title>Verify Search Station/Train Feature</title>
     <test-cases>
-        <test-case start='1663076083811' status='passed' stop='1663076089113'>
+        <test-case start='1663077529378' status='passed' stop='1663077534499'>
             <name>TC _011: Verify user can view "আক্কেলপুর স্টেশন" in first position when search entry is empty</name>
             <title>TC _011: Verify user can view "আক্কেলপুর স্টেশন" in first position when search entry is empty</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
@@ -21,13 +21,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1663076089113' status='passed' stop='1663076090827'>
+        <test-case start='1663077534499' status='passed' stop='1663077535756'>
             <name>TC _012: Verify user can't found any station list after searching by invalid Station name</name>
             <title>TC _012: Verify user can't found any station list after searching by invalid Station name</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
@@ -35,13 +35,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1663076090828' status='passed' stop='1663076093485'>
+        <test-case start='1663077535757' status='passed' stop='1663077538495'>
             <name>TC _013: Verify user can search train by valid Station name</name>
             <title>TC _013: Verify user can search train by valid Station name</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
@@ -49,13 +49,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1663076093485' status='passed' stop='1663076095849'>
+        <test-case start='1663077538495' status='passed' stop='1663077540855'>
             <name>TC _014: Verify user can view "অগ্নিবীনা এক্সপ্রেস" in first position when search entry is empty</name>
             <title>TC _014: Verify user can view "অগ্নিবীনা এক্সপ্রেস" in first position when search entry is empty</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
@@ -63,13 +63,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1663076095849' status='passed' stop='1663076097564'>
+        <test-case start='1663077540855' status='passed' stop='1663077542579'>
             <name>TC _015: Verify user can't found any train list after searching by invalid train name</name>
             <title>TC _015: Verify user can't found any train list after searching by invalid train name</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
@@ -77,13 +77,13 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1663076097564' status='passed' stop='1663076100221'>
+        <test-case start='1663077542579' status='passed' stop='1663077544867'>
             <name>TC _016: Verify user can search train by valid train name</name>
             <title>TC _016: Verify user can search train by valid train name</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>

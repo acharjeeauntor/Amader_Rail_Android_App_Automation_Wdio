@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663076135662' stop='1663076159895'>
+    <name>Verify Train Ticket Price Feature</name>
+    <title>Verify Train Ticket Price Feature</title>
+    <test-cases>
+        <test-case start='1663076135663' status='passed' stop='1663076148966'>
+            <name>TC _021: Verify user can view Eastern Region train ticket price</name>
+            <title>TC _021: Verify user can view Eastern Region train ticket price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663076148966' status='passed' stop='1663076159894'>
+            <name>TC _022: Verify user can view Western Region train ticket price</name>
+            <title>TC _022: Verify user can view Western Region train ticket price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

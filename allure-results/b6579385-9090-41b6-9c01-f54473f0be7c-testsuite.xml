@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663076210795' stop='1663076238420'>
+    <name>Verify Subscribe Feature</name>
+    <title>Verify Subscribe Feature</title>
+    <test-cases>
+        <test-case start='1663076210795' status='passed' stop='1663076217437'>
+            <name>TC _028: Verify empty fields validation message is showing while Subscribe to the application</name>
+            <title>TC _028: Verify empty fields validation message is showing while Subscribe to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663076217438' status='broken' stop='1663076238420'>
+            <name>TC _029: Verify User can Subscribe to the application</name>
+            <title>TC _029: Verify User can Subscribe to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "/hierarchy/android.widget.Toast" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "/hierarchy/android.widget.Toast" because element wasn't found
+                    at SubscribeFormScreen.getToastMsg (/Users/auntoracharja/Work/SQA/Automation/WebdriverIo/Amader_Rail_Automation_Script/test/screenobjects/subscribe/subscribeformscreen.js:40:16)
+                    at Context.&lt;anonymous> (/Users/auntoracharja/Work/SQA/Automation/WebdriverIo/Amader_Rail_Automation_Script/test/specs/subscribe/subscribe.spec.js:31:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

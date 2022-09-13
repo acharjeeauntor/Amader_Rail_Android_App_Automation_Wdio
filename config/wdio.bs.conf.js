@@ -40,8 +40,8 @@ othersFeatures:[
   config.capabilities = [
       {
           platformName:"Android",
-          "appium:platformVersion": "11.0",
-          "appium:deviceName":"Google Pixel 5",
+          "appium:platformVersion": "9.0",
+          "appium:deviceName":"Google Pixel 3a",
           "appium:automationName":"UIAutomator2",
           "appium:app":"bs://0d1db8abc756cd07d625628818d32def1f5b5997",
           "appium:autoGrantPermissions":true

@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663076196009' stop='1663076205785'>
+    <name>Verify Mobile Ticket Feature</name>
+    <title>Verify Mobile Ticket Feature</title>
+    <test-cases>
+        <test-case start='1663076196009' status='passed' stop='1663076202005'>
+            <name>TC _025: Verify user can view the SMS rules to buy ticket using sms</name>
+            <title>TC _025: Verify user can view the SMS rules to buy ticket using sms</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663076202005' status='passed' stop='1663076204103'>
+            <name>TC _026: Verify user can cancel buy a train ticket using SMS system</name>
+            <title>TC _026: Verify user can cancel buy a train ticket using SMS system</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663076204104' status='passed' stop='1663076205784'>
+            <name>TC _027: Verify user can buy a train ticket using SMS system</name>
+            <title>TC _027: Verify user can buy a train ticket using SMS system</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel-3a-test 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

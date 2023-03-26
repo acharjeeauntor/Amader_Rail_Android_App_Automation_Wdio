@@ -60,7 +60,7 @@ The following software are required:
 2. To run account feature test: npm run accountTest
 3. To run account Other Features Test: npm run otherFeaturesTest
 
-## HTML Report view for functional test:
+## Allure Report view for functional test:
 ![Screenshot 2022-08-16 at 8 31 56 PM](https://user-images.githubusercontent.com/38497405/184920246-8f7a18c8-17c0-4f3b-b4d1-77ea4111b46e.png)
 ![Screenshot 2022-08-16 at 8 32 48 PM](https://user-images.githubusercontent.com/38497405/184920198-cc975dd4-8772-460d-a49e-e29f7b3fb760.png)
 ![Screenshot 2022-08-16 at 8 32 33 PM](https://user-images.githubusercontent.com/38497405/184920319-2412779b-5c44-43d7-a226-bed0c8ef6363.png)

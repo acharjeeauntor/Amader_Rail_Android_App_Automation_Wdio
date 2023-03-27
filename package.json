@@ -9,14 +9,17 @@
     "accountTest": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js --suite account",
     "otherFeaturesTest": "npm run clearAllure && npx wdio config/wdio.androiddevice.conf.js --suite othersFeatures",
     "bsTest": "npm run clearAllure && npx wdio config/wdio.bs.conf.js --suite basicTest",
-    "allureReport": "allure serve"
+    "allureReport": "allure serve",
+    "accountbsTest": "npm run clearAllure && npx wdio config/wdio.localdevicebs.conf.js --suite account"
+    
   },
   "author": "Auntor Acharja",
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.20.9",
     "allure-commandline": "^2.18.1",
-    "appium": "^2.0.0-beta.42"
+    "appium": "^2.0.0-beta.42",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",

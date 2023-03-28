@@ -40,7 +40,7 @@ config.specs = [
             "appium:platformVersion": "9.0",
             "appium:deviceName": "Google Pixel 3a",
             "appium:automationName": "UIAutomator2",
-            "appium:app": "bs://32b9e2cb1c2554913e392743438143580fea4216",
+            "appium:app": "bs://4f7eff665c6c23376a8feb58939d017073e74df9",
             "appium:autoGrantPermissions": true
         }
     ]

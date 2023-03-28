@@ -66,4 +66,16 @@ The following software are required:
 ![Screenshot 2022-08-16 at 8 32 33 PM](https://user-images.githubusercontent.com/38497405/184920319-2412779b-5c44-43d7-a226-bed0c8ef6363.png)
 ![Screenshot 2022-08-16 at 8 32 19 PM](https://user-images.githubusercontent.com/38497405/184920342-273aa2cb-dbcb-4b41-bff1-b167fdbffab8.png)
 
-## To See the Demo Video click [here](https://youtu.be/0hodi11E1S0)
+## To See the Demo Video click [here](https://youtu.be/0hodi11E1S0)<br>
+
+----------------------------------------------------------
+
+## Github Action with BrowserStack Related Info:<br>
+1. I have added github actions in this project to test my script in CI way.As this is a mobile application testing so i have intregrate Browserstack to for virtual mobile device.<br>
+2. To See the Demo Video click [here](https://youtu.be/VN0Wpwq7MSw)<br>
+
+----------------------------------------------------------
+
+## Jenkins with BrowserStack Related Info:<br>
+1. I have intregrate this project with jenkins through the github repository and run test on Browserstack for virtual device.<br>
+2. To See the Demo Video click [here](https://youtu.be/8FmTwhVYzLU)<br>

@@ -32,7 +32,8 @@ This repo is contain Amader Rail Android Application Automation test script usin
   } <br>
 * IDE: Visual Studio Code <br>
 
-
+## Project Architecture: <br>
+![wdio_Android_project_Arch](https://user-images.githubusercontent.com/38497405/232031119-62661f6d-aaba-4f8d-9732-83770f48b08c.png)
 
 ## Requirement:<br>
 1. Build a Automation Test project to automate maximum number of test case
